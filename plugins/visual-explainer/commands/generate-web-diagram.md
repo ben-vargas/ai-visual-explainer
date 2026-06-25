@@ -1,4 +1,5 @@
 ---
+name: generate-web-diagram
 description: Generate a standalone HTML diagram and open it in the browser
 ---
 

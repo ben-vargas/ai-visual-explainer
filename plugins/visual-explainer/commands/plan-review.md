@@ -1,4 +1,5 @@
 ---
+name: plan-review
 description: Compare an implementation plan against the current codebase
 ---
 

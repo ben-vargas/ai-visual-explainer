@@ -1,4 +1,5 @@
 ---
+name: generate-slides
 description: Generate a slide deck as a self-contained HTML page
 ---
 

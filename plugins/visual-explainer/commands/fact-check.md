@@ -1,4 +1,5 @@
 ---
+name: fact-check
 description: Verify a generated document against actual code and git history
 ---
 

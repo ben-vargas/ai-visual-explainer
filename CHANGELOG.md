@@ -2,6 +2,16 @@
 
 ## [Unreleased]
 
+## [0.8.1] - 2026-06-25
+
+### Fixed
+- Removed the invalid Claude Code plugin `skills: ["./"]` manifest entry so the marketplace plugin no longer trips the `Path escapes plugin directory` loader error. Reported by @aidansommers in #49, @fessygaspard-cpu in #51, @frntman in #58, and @syxc in #59, with confirmations and follow-up from @MauricioCorzo, @umar-s, @marcuslannister, and @NikiforovAll.
+- Added the required `description` frontmatter to the canonical `visual-explainer` skill so Agent Skills loaders can discover it without metadata warnings.
+- Added explicit `name` frontmatter to bundled command templates for loaders that do not infer command names from filenames. Based on the NLPM audit reports #46 and #48 and PR #43 from @xiaolai.
+- Updated the canonical Mermaid SVG insertion pattern to parse rendered SVG through the lenient HTML parser instead of assigning `innerHTML`, preserving Mermaid 10+/11 `foreignObject` labels while avoiding common scanner warnings. Based on issue #37 and PR #54 from @thomnico.
+
+## [0.8.0] - 2026-06-24
+
 ### Added
 - Added one Pi extension tool, `visual_explainer`, with `prepare` for permission-aware visual explanation planning and optional subagent scouting, plus `render` for writing and opening generated HTML pages while keeping `/generate-web-diagram` as a prompt template.
 

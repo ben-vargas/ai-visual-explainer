@@ -1,4 +1,5 @@
 ---
+name: project-recap
 description: Generate a visual project recap for context switching
 ---
 

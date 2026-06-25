@@ -1,4 +1,5 @@
 ---
+name: diff-review
 description: Generate a visual diff review for code changes
 ---
 

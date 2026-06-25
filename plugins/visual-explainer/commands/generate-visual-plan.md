@@ -1,4 +1,5 @@
 ---
+name: generate-visual-plan
 description: Generate a visual implementation plan
 ---
 
