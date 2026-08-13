@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [0.9.0] - 2026-08-13
+
 ### Added
 - Added a best-effort static PPTX export utility for simple HTML slide decks. It extracts slide text, bullets, simple tables, code blocks, and diagram placeholders while keeping HTML as the source of truth. Requested by @romkazor in #50.
 - Added a local stdio MCP server that exposes render tools, bundled prompt templates, and read-only skill resources without HTTP, auth, remote storage, or LLM calls. Requested by @luketych in #33.
