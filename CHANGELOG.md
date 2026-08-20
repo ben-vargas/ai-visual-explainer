@@ -2,11 +2,23 @@
 
 ## [Unreleased]
 
+## [0.10.0] - 2026-08-20
+
+### Highlights
+- Visual explanations now choose a calmer or more expressive treatment based on the request instead of defaulting to the same look every time.
+- Repo-aware pages now prefer the project's own design language before falling back to built-in visual directions.
+- Diagrams now get stronger guidance on what to show, not just how to render Mermaid.
+- The skill now includes a clearer accessibility and dual-theme baseline for generated pages.
+
 ### Added
-- Added a design-judgment layer to the skill: treatment calibration, existing-design-system precedence, a pre-build design plan with a worked genericness audit, meaningful structure rules, a tiered dual-theme contract, type setting and neutrals/spacing craft, microcopy guidance, a UI-vs-document stance, accessibility checklist items, diagram rhetoric ("what to draw, before how"), an extended generated-page cliché list, and content-anchored aesthetic direction choice.
+- Added design-judgment guidance for matching the visual treatment to the request, planning a specific design before writing HTML, and avoiding generic generated-page patterns.
+- Added project design-system precedence so repo-anchored pages can follow existing theme tokens, component styles, and visual vocabulary.
+- Added content-anchored aesthetic directions for CLI, infrastructure, metrics, architecture, recap, and prose-heavy pages.
+- Added diagram rhetoric guidance that asks diagrams to show the mechanism, label arrows, compare differences directly, and make one clear claim per figure.
+- Added craft guidance for dual color schemes, type setting, neutrals, spacing, microcopy, dashboard readability, keyboard focus states, and diagram captions.
 
 ### Fixed
-- Synchronized Claude Code marketplace and skill metadata versions to `0.9.0` after the mismatch reported by @romkazor in #83.
+- Synchronized Claude Code marketplace and skill metadata versions after the mismatch reported by @romkazor in #83.
 
 ## [0.9.0] - 2026-08-13
 
