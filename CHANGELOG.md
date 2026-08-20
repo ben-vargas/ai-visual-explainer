@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+### Added
+- Added a design-judgment layer to the skill: treatment calibration, existing-design-system precedence, a pre-build design plan with a worked genericness audit, meaningful structure rules, a tiered dual-theme contract, type setting and neutrals/spacing craft, microcopy guidance, a UI-vs-document stance, accessibility checklist items, diagram rhetoric ("what to draw, before how"), an extended generated-page cliché list, and content-anchored aesthetic direction choice.
+
 ### Fixed
 - Synchronized Claude Code marketplace and skill metadata versions to `0.9.0` after the mismatch reported by @romkazor in #83.
 
